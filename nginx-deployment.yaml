@@ -16,7 +16,7 @@ spec:
       - name: nginx
         image: prasannavamsi/custom_image:latest
       imagePullSecrets:
-      -name: my-registry-secret
+      - name: my-registry-secret
         ports:
         - containerPort: 80
 ---
